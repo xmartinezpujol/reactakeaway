@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+#app {
+  background-color: lightgrey;
+  width: 350px;
+  height: 580px;
+  margin: 50px auto;
+  border-radius: 20px;
+}
+
+.app-viewport {
+  position: relative;
+  top: 50px;
+  left: 15px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+  width: 320px;
+  height: 480px;
+}
