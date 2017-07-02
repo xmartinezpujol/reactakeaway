@@ -55,13 +55,13 @@ let food = {
     {
       name: "small",
       color: "#536DFE",
-      img: "./img/lomein.jpg",
+      img: "./img/small.png",
       price: 1  // 0% rise
     },
     {
       name: "big",
       color: "#D32F2F",
-      img: "./img/ramen.jpg",
+      img: "./img/big.png",
       price: 1.5  // 50% rise
     }
   ],
@@ -69,28 +69,28 @@ let food = {
     {
       name: "yakisoba",
       color: "#536DFE",
-      img: "./img/udon.jpg",
+      img: "./img/yakisoba.jpg",
       price: 0,  // free
       desc: "Bacon ipsum dolor amet andouille tri-tip beef ribs bresaola short loin, cow spare ribs filet mignon pork pork chop picanha."
     },
     {
       name: "peanut",
       color: "#827717",
-      img: "./img/rice.jpg",
+      img: "./img/peanut.jpg",
       price: 0.25,  // free
       desc: "Bacon ipsum dolor amet andouille tri-tip beef ribs bresaola short loin, cow spare ribs filet mignon pork pork chop picanha."
     },
     {
       name: "oyster",
       color: "#FBC02D",
-      img: "./img/ramen.jpg",
+      img: "./img/oyster.jpg",
       price: 0.30,  // free
       desc: "Bacon ipsum dolor amet andouille tri-tip beef ribs bresaola short loin, cow spare ribs filet mignon pork pork chop picanha."
     },
     {
       name: "thai chili",
       color: "#EF6C00",
-      img: "./img/udon.jpg",
+      img: "./img/chili.jpg",
       price: 0.50,  // free
       desc: "Bacon ipsum dolor amet andouille tri-tip beef ribs bresaola short loin, cow spare ribs filet mignon pork pork chop picanha."
     }
@@ -99,42 +99,42 @@ let food = {
     {
       name: "chicken",
       color: "#536DFE",
-      img: "./img/udon.jpg",
+      img: "./img/chicken.jpeg",
     },
     {
       name: "beef",
       color: "#827717",
-      img: "./img/rice.jpg",
+      img: "./img/beef.jpg",
     },
     {
       name: "pork",
       color: "#FBC02D",
-      img: "./img/ramen.jpg",
+      img: "./img/pork.jpg",
     },
     {
       name: "mushrooms",
       color: "#EF6C00",
-      img: "./img/udon.jpg",
+      img: "./img/shiitake.jpg",
     },
     {
       name: "bacon",
       color: "#D32F2F",
-      img: "./img/ramen.jpg",
+      img: "./img/bacon.jpg",
     },
     {
       name: "corn",
       color: "#827717",
-      img: "./img/udon.jpg",
+      img: "./img/corn.jpg",
     },
     {
       name: "broccoli",
       color: "#FBC02D",
-      img: "./img/ramen.jpg",
+      img: "./img/broccoli.jpg",
     },
     {
       name: "bamboo",
       color: "#536DFE",
-      img: "./img/udon.jpg",
+      img: "./img/bamboo.png",
     }
   ]
 };
