@@ -4,9 +4,9 @@ import '../css/PriceTotal.css';
 function PriceTotal(props) {
 
   return (
-    <ul className="order-list">
-      <li>{props.total === 0 ? props.order : `${props.order} = ${props.total}€`}</li>
-    </ul>
+    <div className="order-list">
+      <p>{props.total === 0 ? props.order : `Total = ${props.total}€`}</p>
+    </div>
   )
 }
 

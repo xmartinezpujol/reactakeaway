@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/Card.css';
 
-class Card extends React.Component {
+class BaseCard extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -42,7 +42,7 @@ class Card extends React.Component {
     if (this.state.opened) {
       card_img = <div className='cardimg-wrapper'><img className="card-image" src={this.props.image} alt={this.props.name} /></div>;
       card_text = <p className="card-text">{this.props.text}</p>
-      card_price = <p className="card-price">{this.props.price}€</p>
+      card_price = <p className="card-price">{this.props.price.toFixed(2)}€</p>
       choice_accept = (
         <button
           onClick={event => {
@@ -58,7 +58,7 @@ class Card extends React.Component {
 
     return (
       <div
-        className={`card ${this.state.opened ? "opened" : "closed"}`}
+        className={`card ${this.state.opened ? "opened" : "closed"} ${this.props.selected ? "active" : ""}`}
         style={this.state.opened ? null : { backgroundImage: `linear-gradient(
                     rgba(20,20,20, .1),
                     rgba(20,20,20, .4)),
@@ -74,17 +74,16 @@ class Card extends React.Component {
         <svg
           onClick={this.openCard}
           className="card-title circular"
-          height="50"
-          width="180"
-          viewBox="0 0 180 50"
+          height="100%"
+          width="100%"
         >
           <rect
             className="card-shape"
             fill={this.props.selected ? this.props.color : null}
             x="0"
             y="0"
-            height="50"
-            width="180"
+            height="100%"
+            width="100%"
           />
           <text
             textAnchor="middle"
@@ -107,4 +106,4 @@ class Card extends React.Component {
   }
 }
 
-export default Card
+export default BaseCard

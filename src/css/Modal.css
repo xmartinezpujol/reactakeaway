@@ -1,0 +1,40 @@
+.modal-alert{
+  position: absolute;
+  width: 96%;
+  min-height: 30%;
+  z-index: 100;
+  background-color: rgba(255,255,255,1);
+  transition: all 1s ease-in;
+  font-weight: bold;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.modal-alert p {
+  padding: 20px;
+}
+
+.modal-close{
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: black;
+}
+
+.modal-alert.opened{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-alert.closed{
+  display: none;
+}

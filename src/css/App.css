@@ -20,3 +20,32 @@
   width: 320px;
   height: 480px;
 }
+
+.nav-wrapper{
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+}
+
+.nav-arrow{
+  color: white;
+  height: 100%;
+  font-size: 24px;
+  line-height: 48px;
+}
+
+.nav-arrow:hover{
+  cursor: pointer;
+}
+
+.left-arrow{
+  float: left;
+  margin-left: 20px;
+}
+
+.right-arrow{
+  float: right;
+  margin-right: 20px;
+
+}

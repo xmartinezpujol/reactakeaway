@@ -1,6 +1,6 @@
 /* ORDERS LIST */
 .order-list{
-  flex: 1;
+  position: absolute;
   bottom: 0;
   width: 100%;
   background-color: black;
@@ -8,10 +8,5 @@
   text-align: center;
   padding: 0;
   margin: 0;
-  max-height: 50px;
-}
-
-.order-list li{
-  padding: 10px;
-  list-style-type: none;
+  height: 50px;
 }
